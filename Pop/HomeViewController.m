@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "RankViewController.h"
+#import "InfoViewController.h"
 
 // section height factor
 #define kTopSectionHeightFactor 0.3
@@ -67,7 +68,7 @@
 - (void)withdrawAnimations:(void (^)(void))completion {
   __block int retainCount = 3;
   // animations for top label
-  [UIView animateWithDuration:kEnterDuration delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+  [UIView animateWithDuration:kEnterDuration delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{
     [_topLabel setFrame:CGRectMake(_topLabel.frame.origin.x, _topLabel.frame.origin.y - kSectionInitialDistance, _topLabel.frame.size.width, _topLabel.frame.size.height)];
   } completion:^(BOOL finished) {
     if (retainCount == 1) { // this is the last one holding HomeVC
@@ -110,6 +111,13 @@
     }
       break;
     case 1:
+    { // <- This pair of braces is required for ARC.
+      // It is not necessary to wrap EVERY switch in{}, only those that declare variables (explicitly or via a macro or compiler swizzle). ARC has relatively little to do with it.
+      [self withdrawAnimations:^{
+        InfoViewController *infoVC = [[InfoViewController alloc] init];
+        [self presentViewController:infoVC animated:NO completion:nil];
+      }];
+    }
       break;
     case 2:
       break;
