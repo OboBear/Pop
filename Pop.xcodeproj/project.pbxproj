@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71F85321B8B1C490034413A /* PopToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F85311B8B1C490034413A /* PopToolBar.m */; };
+		D71F85351B9033AA0034413A /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F85341B9033AA0034413A /* RankViewController.m */; };
+		D71F853C1B9044E20034413A /* PopDivideLines.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F853B1B9044E20034413A /* PopDivideLines.m */; };
+		D75284F81B9572F200679DB1 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75284F71B9572F200679DB1 /* InfoViewController.m */; };
 		D75822BD1B86FC0100174A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75822BC1B86FC0100174A13 /* main.m */; };
 		D75822C01B86FC0100174A13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75822BF1B86FC0100174A13 /* AppDelegate.m */; };
-		D75822C31B86FC0100174A13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75822C21B86FC0100174A13 /* ViewController.m */; };
+		D75822C31B86FC0100174A13 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75822C21B86FC0100174A13 /* HomeViewController.m */; };
 		D75822C61B86FC0100174A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75822C41B86FC0100174A13 /* Main.storyboard */; };
 		D75822C81B86FC0100174A13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75822C71B86FC0100174A13 /* Images.xcassets */; };
 		D75822CB1B86FC0100174A13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75822C91B86FC0100174A13 /* LaunchScreen.xib */; };
@@ -27,13 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D71F85301B8B1C490034413A /* PopToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToolBar.h; sourceTree = "<group>"; };
+		D71F85311B8B1C490034413A /* PopToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopToolBar.m; sourceTree = "<group>"; };
+		D71F85331B9033AA0034413A /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		D71F85341B9033AA0034413A /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		D71F853A1B9044E20034413A /* PopDivideLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopDivideLines.h; sourceTree = "<group>"; };
+		D71F853B1B9044E20034413A /* PopDivideLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopDivideLines.m; sourceTree = "<group>"; };
+		D75284B41B943A2C00679DB1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D75284F61B9572F200679DB1 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		D75284F71B9572F200679DB1 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		D75822B71B86FC0100174A13 /* Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75822BB1B86FC0100174A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75822BC1B86FC0100174A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D75822BE1B86FC0100174A13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D75822BF1B86FC0100174A13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D75822C11B86FC0100174A13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D75822C21B86FC0100174A13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D75822C11B86FC0100174A13 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D75822C21B86FC0100174A13 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		D75822C51B86FC0100174A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D75822C71B86FC0100174A13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D75822CA1B86FC0100174A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +73,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D71F853D1B9044F10034413A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D71F853A1B9044E20034413A /* PopDivideLines.h */,
+				D71F853B1B9044E20034413A /* PopDivideLines.m */,
+				D71F85301B8B1C490034413A /* PopToolBar.h */,
+				D71F85311B8B1C490034413A /* PopToolBar.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D71F853E1B9044FA0034413A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D75822C11B86FC0100174A13 /* HomeViewController.h */,
+				D75822C21B86FC0100174A13 /* HomeViewController.m */,
+				D71F85331B9033AA0034413A /* RankViewController.h */,
+				D71F85341B9033AA0034413A /* RankViewController.m */,
+				D75284F61B9572F200679DB1 /* InfoViewController.h */,
+				D75284F71B9572F200679DB1 /* InfoViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D71F853F1B9045150034413A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D75822C41B86FC0100174A13 /* Main.storyboard */,
+				D75822C71B86FC0100174A13 /* Images.xcassets */,
+				D75822C91B86FC0100174A13 /* LaunchScreen.xib */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
 		D75822AE1B86FC0100174A13 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +128,9 @@
 		D75822B91B86FC0100174A13 /* Pop */ = {
 			isa = PBXGroup;
 			children = (
-				D75822BE1B86FC0100174A13 /* AppDelegate.h */,
-				D75822BF1B86FC0100174A13 /* AppDelegate.m */,
-				D75822C11B86FC0100174A13 /* ViewController.h */,
-				D75822C21B86FC0100174A13 /* ViewController.m */,
-				D75822C41B86FC0100174A13 /* Main.storyboard */,
-				D75822C71B86FC0100174A13 /* Images.xcassets */,
-				D75822C91B86FC0100174A13 /* LaunchScreen.xib */,
+				D71F853E1B9044FA0034413A /* View Controllers */,
+				D71F853D1B9044F10034413A /* Views */,
+				D71F853F1B9045150034413A /* User Interface */,
 				D75822BA1B86FC0100174A13 /* Supporting Files */,
 			);
 			path = Pop;
@@ -96,6 +139,9 @@
 		D75822BA1B86FC0100174A13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D75284B41B943A2C00679DB1 /* Constants.h */,
+				D75822BE1B86FC0100174A13 /* AppDelegate.h */,
+				D75822BF1B86FC0100174A13 /* AppDelegate.m */,
 				D75822BB1B86FC0100174A13 /* Info.plist */,
 				D75822BC1B86FC0100174A13 /* main.m */,
 			);
@@ -168,6 +214,7 @@
 				TargetAttributes = {
 					D75822B61B86FC0100174A13 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4U74Z69A4N;
 					};
 					D75822CF1B86FC0200174A13 = {
 						CreatedOnToolsVersion = 6.4;
@@ -219,9 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75822C31B86FC0100174A13 /* ViewController.m in Sources */,
+				D75822C31B86FC0100174A13 /* HomeViewController.m in Sources */,
+				D71F853C1B9044E20034413A /* PopDivideLines.m in Sources */,
 				D75822C01B86FC0100174A13 /* AppDelegate.m in Sources */,
 				D75822BD1B86FC0100174A13 /* main.m in Sources */,
+				D71F85321B8B1C490034413A /* PopToolBar.m in Sources */,
+				D75284F81B9572F200679DB1 /* InfoViewController.m in Sources */,
+				D71F85351B9033AA0034413A /* RankViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +400,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,9 +413,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +475,7 @@
 				D75822DC1B86FC0200174A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D75822DD1B86FC0200174A13 /* Build configuration list for PBXNativeTarget "PopTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +484,7 @@
 				D75822DF1B86FC0200174A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
