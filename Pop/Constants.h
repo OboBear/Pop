@@ -9,14 +9,14 @@
 #ifndef Pop_Constants_h
 #define Pop_Constants_h
 
-// duration
+// global animation duration
 #define kEnterDuration 0.7
 #define kExitDuration 0.5
 
-// distance
+// global initial distance for top & bottom sections
 #define kSectionInitialDistance 200
 
-// divide line width
+// global divide line width
 #define kDivideLineWidth 0.4
 
 #endif
